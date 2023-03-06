@@ -19,9 +19,12 @@ namespace ConsoleUI
         public void Update(Musteri musteri)
         {
             Console.WriteLine("Musteri Güncellendi" + musteri.Ad);
+
         }
         public void Listele(Musteri[] musteriler)
         {
+            Console.WriteLine("Musteriler listelendi");
+            Console.WriteLine("");
             foreach (var musteri in musteriler)
             {
                 Console.WriteLine(musteri.Ad);
